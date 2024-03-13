@@ -1,0 +1,72 @@
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body
+{
+    background-color: #14204A;
+}
+
+main
+{
+    margin-top: 5px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.interface
+{
+    max-width: 1200px;
+}
+
+section
+{
+    background-color: #1B1816;
+    width: 450px;
+    color: #fff;
+    padding: 15px 40px 40px 40px;
+    border-radius: 20px;
+}
+
+form div
+{
+    margin-top: 15px;
+}
+
+input[type="text"]
+{
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+button
+{
+  width: 100%;
+  margin-top: 20px;
+  padding: 5px;
+  background-color: #626AF1;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar{
+    background-color: #14204A;
+}
+
+::-webkit-scrollbar-thumb
+{
+    background-color: #1B1816;
+    border-radius: 10px;
+}

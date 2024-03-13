@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- FIM GOOGLE FONTS -->
+
+    <link rel="stylesheet" href="form.css">
+
+</head>
+<body>
+    <main>
+        <div class="interface">
+            <section>
+                <h2>Formulário</h2>
+
+                <form action="" method="POST">
+                    <div>
+                        <label for="nome">Nome:</label><br>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+    
+                    <div>
+                        <label for="email">E-mail:</label><br>
+                        <input type="text" id="email" name="email" required>
+                    </div>
+
+                    <div>
+                        <label for="tel">Telefone:</label><br>
+                        <input type="text" id="tel" name="tel" required>
+                    </div>
+
+                    <div>
+                        <label>Teve acesso a este formulário por qual plataforma?</label><br>
+                        <select id="facilidade" name="facilidade" required>
+                            <option value="">Selecione</option>
+                            <option value="sim">LinkedIn</option>
+                            <option value="nao">Instagram</option>
+                            <option value="neutro">Próprio Site</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label>Sexo</label>
+                        <input type="radio" id="conteudo_sim" name="conteudo" value="sim" required>
+                        <label for="conteudo_sim">Masculino</label>
+                        <input type="radio" id="conteudo_nao" name="conteudo" value="nao">
+                        <label for="conteudo_nao">Feminino</label><br>
+                    </div>
+
+                    <div>
+                        <label>Qual sua disponibilidade de início?</label><br>
+                        <input type="checkbox" id="design_neutro" name="design" value="neutro">
+                        <label for="design_neutro">A qualquer momento</label><br>
+                        <input type="checkbox" id="design_neutro" name="design" value="neutro">
+                        <label for="design_neutro">Meio período</label><br>
+                        <input type="checkbox" id="design_neutro" name="design" value="neutro">
+                        <label for="design_neutro">Tempo integral</label><br>
+                    </div>
+
+                    <div>
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+            </section>
+        </div><!--interface-->
+    </main>
+</body>
+</html>
